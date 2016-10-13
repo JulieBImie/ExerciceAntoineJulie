@@ -1,0 +1,28 @@
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git add git.txt
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git add css
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git status
+On branch Ab_JB
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    css/index.html
+        new file:   css/style.css
+        new file:   git.txt
+        deleted:    images/index.html
+        deleted:    js/index.html
+
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git commit -m "Ajout du css et git.txt"
+[Ab_JB ca0876e] Ajout du css et git.txt
+ 5 files changed, 178 insertions(+), 1584 deletions(-)
+ delete mode 100644 css/index.html
+ create mode 100644 css/style.css
+ create mode 100644 git.txt
+ delete mode 100644 images/index.html
+ delete mode 100644 js/index.html
