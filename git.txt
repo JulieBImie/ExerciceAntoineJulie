@@ -1,3 +1,5 @@
+------------------------------------------------------Lignes Commandes Julie-----------------------------------------------------------------------------------------------
+
 Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
 $ git add git.txt
 
@@ -26,3 +28,43 @@ $ git commit -m "Ajout du css et git.txt"
  create mode 100644 git.txt
  delete mode 100644 images/index.html
  delete mode 100644 js/index.html
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git status
+On branch Ab_JB
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   git.txt
+        modified:   index.php
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git add git.txt
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git add index.php
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git status
+On branch Ab_JB
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   git.txt
+        modified:   index.php
+
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git commit -m"Changements git.txt et include dans index.php"
+[Ab_JB c510f2f] Changements git.txt et include dans index.php
+ 2 files changed, 34 insertions(+), 240 deletions(-)
+
+Maxime@Moi MINGW64 ~/gitExercice (Ab_JB)
+$ git status
+On branch Ab_JB
+nothing to commit, working directory clean
+
+----------------------------------------------------------------Lignes commande Antoine-------------------------------------------------------------------------------------
